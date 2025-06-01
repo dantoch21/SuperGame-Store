@@ -24,7 +24,7 @@ function showPage(page) {
         ${createGame("The Last of Us II", 4.1, 1199, "The Last of Us ll.png")}
         ${createGame("Cyberpunk 2077", 3.7, 1499, "Cyberpunk 2077.png")}
         ${createGame("Resident Evil 2", 4.2, 1199, "Resident Evil 2.png")}
-        ${createGame("A Way Out", 4.0, 1049, "A Way Out.png")}
+        ${createGame("A Way out", 4.0, 1049, "A Way Out.png")}
         ${createGame("Rust", 3.7, 1499, "Rust.png")}
       </div>`;
   }
