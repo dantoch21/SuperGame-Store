@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SuperGame Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page-wrapper">
+    <div class="menu">
+      <img src="logo.jpg" width="100" height="100" alt="Logo">
+      <h1>SuperGame Store</h1>
+      <p>The best game shop ever</p>
+      <button onclick="showPage('sale')">Spring Sale</button>
+      <button onclick="showPage('main')">Main</button>
+      <button onclick="showPage('library')">Library</button>
+      <button onclick="showPage('search')">Search</button>
+    </div>
+
+    <div class="content" id="content">
+      <h2>Welcome to SuperGame Store!</h2>
+      <p>Select a section from the left.</p>
+    </div>
+  </div>
+
+  <div id="payment-form" class="payment-form" style="display: none;">
+    <p id="payment-title">Buy: </p>
+    <input type="text" placeholder="Card number">
+    <input type="text" placeholder="Owner's name">
+    <input type="text" placeholder="Card validity period">
+    <input type="text" placeholder="CVV">
+    <button onclick="confirmPayment()" class="buy-button">Buy</button>
+    <button onclick="cancelPayment()" class="cancel-button">Cancel</button>
+  </div>
+
+  <footer>
+    <p>© 2025 SuperGame Store. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
