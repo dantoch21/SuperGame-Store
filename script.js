@@ -24,7 +24,7 @@ function showPage(page) {
         ${createGame("The Last of Us II", 4.1, 1199, "The Last of Us ll.png")}
         ${createGame("Cyberpunk 2077", 3.7, 1499, "Cyberpunk 2077.png")}
         ${createGame("Resident Evil 2", 4.2, 1199, "Resident Evil 2.png")}
-        ${createGame("A Way Out", 4.0, 1049, "A Way out.png")}
+        ${createGame("A Way Out", 4.0, 1049, "A way out.png")}
         ${createGame("Rust", 3.7, 1499, "Rust.png")}
       </div>`;
   }
@@ -118,7 +118,7 @@ let allGames = [
   { title: "The Last of Us II", rating: 4.1, price: 1199, imageName: "The Last of Us ll.png" },
   { title: "Cyberpunk 2077", rating: 3.7, price: 1499, imageName: "Cyberpunk 2077.png" },
   { title: "Resident Evil 2", rating: 4.2, price: 1199, imageName: "Resident Evil 2.png" },
-  { title: "A Way Out", rating: 4.0, price: 1049, imageName: "A Way out.png" },
+  { title: "A Way Out", rating: 4.0, price: 1049, imageName: "A way out.png" },
   { title: "Rust", rating: 3.7, price: 1499, imageName: "Rust.png" }
 ];
 
